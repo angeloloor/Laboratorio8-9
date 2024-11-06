@@ -72,7 +72,7 @@ app.get('/',(req,res)=>{
 })
 
 app.get('/integrantes',(req,res)=>{
-    res.json(integrante)
+    res.json(integrantes)
 })
 
 app.get('/integrantes/:id', (req, res) => {
